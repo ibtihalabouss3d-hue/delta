@@ -1019,7 +1019,7 @@
 
                                 var j1 = $.ajax({
                                     type: "POST",
-                                    url: "/Profile/GetStudentAcademicData",
+                                    url: "../Profile/GetStudentAcademicData.html",
                                     data: null,
                                     contentType: "application/json; charset=utf-8",
                                     dataType: "json",
@@ -1067,7 +1067,7 @@
                                 });
                                 var j2 = $.ajax({
                                     type: "POST",
-                                    url: "/Profile/StudentFiles",
+                                    url: "../Profile/StudentFiles.html",
                                     data: null,
                                     contentType: "application/json; charset=utf-8",
                                     dataType: "json",
@@ -1110,7 +1110,7 @@
                                 });
                                 var j3 = $.ajax({
                                     type: "POST",
-                                    url: "/Profile/GetStudentsAbsenceWarningsNumber",
+                                    url: "../Profile/GetStudentsAbsenceWarningsNumber.html",
                                     data: null,
                                     contentType: "application/json; charset=utf-8",
                                     dataType: "json",
@@ -1168,7 +1168,7 @@ $(function () {
                                     var $taregt = $(this)
                                     $.ajax({
                                         type: "POST",
-                                        url: "/Notifications/SetNotificationSeen",
+                                        url: "../Notifications/SetNotificationSeen,html",
                                         data: JSON.stringify({
                                             NotificationId: $taregt.attr("data-id"),
                                             PageUrl: $taregt.attr("data-url")
